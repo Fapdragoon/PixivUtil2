@@ -48,6 +48,7 @@ if platform.system() == 'Windows':
     |\|
     |\*
     |\"
+    |#
     ''', re.VERBOSE)
 else:
     __badchars__ = re.compile(r'''
